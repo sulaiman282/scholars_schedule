@@ -1,0 +1,14 @@
+.info1{
+    margin-top:10vh !important;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+   
+}
+.div2col{
+    background-color: rgba(16, 135, 233, 0.589);
+    border-radius: 0px 75px 35px 95px;
+  
+}
