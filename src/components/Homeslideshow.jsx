@@ -66,7 +66,7 @@ const sliderImageUrl = [
 ];
 const Brandslider = () => {
   return (
-    <div className="parent container">
+    <div className="parent ">
       <Carousel
         responsive={responsive}
         autoPlay={true}
@@ -80,7 +80,7 @@ const Brandslider = () => {
         {sliderImageUrl.map((imageUrl, index) => {
           return (
             <div className="slider" key={index}>
-              <div className="row d-flex justify-content-center align-items-center">
+              <div className="row d-flex justify-content-center align-items-center ">
               <img src={imageUrl.url} className="brandlogoimg" alt="movie" />
               <span className="slidertext h4">A scholar who cherishes the love of comfort is not fit to be deemed a scholar.</span>
               </div>

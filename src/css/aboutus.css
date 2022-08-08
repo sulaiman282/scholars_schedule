@@ -1,0 +1,17 @@
+.mainbodyaboutus{
+    background-color: rgba(68, 68, 70, 0.534) ;
+
+}
+.aboutuspic{
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+}
+.aboutinfo123{
+    text-align: justify;
+    color: white;
+}
+.about123123{
+background-color: rgba(0, 0, 255, 0.199);
+border-radius: 10px 10px 10px 10px;
+}

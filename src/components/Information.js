@@ -1,32 +1,33 @@
-import "../css/islamicscholars.css"
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import "../css/information.css"
+import DatePicker from "react-date-picker";
 
-
-function Islamicscholars() {
-  const [loading, setLoading] = useState(false);
-  const [posts, setPosts] = useState([]);
-  const [searchTitle, setSearchTitle] = useState("");
-
-  useEffect(() => {
-    const loadPosts = async () => {
-      setLoading(true);
-      const response = await axios.get(
-        "https://limitless-lowlands-32082.herokuapp.com/schedule"
-      );
-      setPosts(response.data);
-      setLoading(false);
-      console.log(response.data)
-    };
-
-    loadPosts();
-  }, []);
+function Information() {
+    const [loading, setLoading] = useState(false);
+    const [posts, setPosts] = useState([]);
+    const [searchTitle, setSearchTitle] = useState("");
+  
+    useEffect(() => {
+      const loadPosts = async () => {
+        setLoading(true);
+        const response = await axios.get(
+          "https://limitless-lowlands-32082.herokuapp.com/schedule"
+        );
+        setPosts(response.data);
+        setLoading(false);
+        console.log(response.data)
+      };
+  
+      loadPosts();
+    }, []);
+  console.log(searchTitle);
 
   return (
     <div className=" container ">
       <div className="row mt-5 mb-5 mainscholar pt-2 pb-2 ">
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center ">
           <h3 className="islamicscholars text-light"> Islamic Scholars</h3>
         </div>
 
@@ -34,7 +35,7 @@ function Islamicscholars() {
           <input
             style={{ width: "80%", height: "100%" }}
             type="text"
-            placeholder="Search Name..."
+            placeholder="Enter date : dd-mm-yy"
             onChange={(e) => setSearchTitle(e.target.value)}
           />
         </div>
@@ -51,7 +52,7 @@ function Islamicscholars() {
               if (searchTitle === "") {
                 return value;
               } else if (
-                value.scholarName.toLowerCase().includes(searchTitle.toLowerCase())
+                value.bookingDate.toLowerCase().includes(searchTitle.toLowerCase())
               ) {
                 return value;
               }
@@ -79,6 +80,9 @@ function Islamicscholars() {
 <span className=" infoc">City:{item.city}</span>
 </div>
 
+<div className="w-100">
+<span className=" infoc">Booking Date:{item.bookingDate}</span>
+</div>
                 
               </div>
 
@@ -94,4 +98,4 @@ function Islamicscholars() {
   );
 }
 
-export default Islamicscholars;
+export default Information;

@@ -1,121 +1,47 @@
-.products-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-items: space-between;
-  
-    
-  }
-  @media only screen and (max-width: 1195px) {
+.mainscholar{
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/874/322/small/islamic-background-ramadan-kareem-mosque-silhouette-design-illustration-ramadan-kareem-design-similar-for-greetings-invitations-templates-banners-websites-or-background-vector.jpg");
+
+}
+.cccontainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: space-between;
+}
+
+@media only screen and (max-width: 1195px) {
      
-    .products-container {
-    
-      grid-template-columns: repeat(4, 1fr);
-    }
-    }
-  @media only screen and (max-width: 994px) {
-     
-  .products-container {
+  .cccontainer {
   
     grid-template-columns: repeat(3, 1fr);
   }
   }
-  @media only screen and (max-width: 765px) {
-     
-  .products-container {
-  
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  
-  }
-
-  .card{
-    margin: 15% 5% 0% 5%;
-    background-color: transparent;
-    border: none;
-    }  
-      
-  .cart-image img {
-    width: 95%;
-    height: 160px;
-    transition: all 0.3s ease;
-    border-radius: 10px;
-    
-
-  }
-  .cart-image img:hover{
-    transform: scale(1.05);
+@media only screen and (max-width: 994px) {
    
-  }
+.cccontainer {
 
-
-  
-  .card:hover .testtext2{
-  display: inline !important;
-  color: red;
-  
-  }
-  
-  
-  
-  .card-description a{
-    text-decoration: none;
-  }
-  
-  
-  .card-description {
-    display: flex;
-    float: bottom;
-    align-items: flex-start;
-    flex-direction: column;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
-    padding: 5%;
- 
-  }
-  .productlink{
-      text-decoration: none;
-     
-      font-size: 14px;
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+@media only screen and (max-width: 765px) {
    
-      width: 100%;
-  }
+.cccontainer {
 
-.productlink:hover{
-  color:red !important;
-}.productlink:focus{
-  color:red !important;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 
-  .info{
-    text-align: center;
-    width: 100%;
-    color:black;
-    font-size: 14px !important;
-    text-align: center;
-   
-  }
+}
+.cartpic11{
+  width: 100%;
+  border-radius: 50%;
 
+}
+.infoc{
+  text-align: center;
+font-size: 16px;
 
-  .info:hover{
-    color: red;
-   
-  }
-
-  .titleis{
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-margin-top: 5%;
-margin-bottom: 5%;
-background-color: blue;
-padding-left: 10px;
-padding-right: 10px;
-border-radius: 0px 25px 25px 15px;
+}
+.test1{
 
   
-  }
-   
-
-  
+}

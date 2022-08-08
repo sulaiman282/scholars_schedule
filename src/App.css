@@ -1,12 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 a:active{
 color: red !important;
 }
 a:hover{
 color: red !important;
+}
+
+.border{
+  border: 10px solid rgb(0, 255, 21) !important;
 }

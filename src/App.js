@@ -8,6 +8,13 @@ import Homeslideshow from './components/Homeslideshow';
 import Islamicscholars from './components/Islamicscholars';
 import Footer from './components/Footer';
 import Homeinfo1 from './components/Homeinfo1';
+import Members from './components/Members';
+import Aboutus from './components/Aboutus';
+import Latestposts from './components/Latestposts';
+import Scholarinfo from './components/Scholarinfo'
+import Information from './components/Information'
+import Allinfo from './components/Allinfo';
+
 
 function App() {
   return (
@@ -17,8 +24,13 @@ function App() {
       <Routes>
       <Route exact path="/islamic_scholars" element={<div><Islamicscholars/></div>} />
 
-      <Route  path="/*" element={<div><Homeslideshow/><Homeinfo1/></div>} />
+      <Route  path="/*" element={<div><Homeslideshow/><Members/><Aboutus/><Latestposts/><Homeinfo1/></div>} />
 
+
+      <Route  path="/islamic_scholars/*" element={<div><Scholarinfo/></div>} />
+
+      <Route exact path="/Information" element={<div><Information/>  </div>} />
+      <Route  path="/Information/*" element={<div><Allinfo/></div>} />
       </Routes>
       
   
