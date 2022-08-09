@@ -5,6 +5,7 @@ import {Link } from "react-router-dom";
 
 
 export default function Donation() {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
 
     const saveToLocalStorage = word => {
        
@@ -89,9 +90,9 @@ export default function Donation() {
             
             <div className='row mt-5'>
 
-                <div className="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div className="col-12 col-sm-6 col-md-6 col-lg-3">
                     <div className="card mt-4">
-                        <img className="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Sheikh_Zayed_Mosque_view.jpg/150px-Sheikh_Zayed_Mosque_view.jpg" alt="Bologna" />
+                        <img className="card-img-top" src="https://i.pinimg.com/originals/82/35/82/82358203c3979bb4db87bd2cda307d24.gif" alt="Bologna" />
                         <div className="card-body">
                             <h4 className="card-title">Free Education</h4>
                             <h6 className="card-subtitle mb-2 text-muted">Donate: 50 $</h6>
@@ -101,9 +102,9 @@ export default function Donation() {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div className="col-12 col-sm-6 col-md-6 col-lg-3">
                     <div className="card mt-4">
-                        <img className="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Sheikh_Zayed_Mosque_view.jpg/150px-Sheikh_Zayed_Mosque_view.jpg" alt="Bologna" />
+                        <img className="card-img-top" src="https://i.pinimg.com/originals/82/35/82/82358203c3979bb4db87bd2cda307d24.gif" alt="Bologna" />
                         <div className="card-body">
                             <h4 className="card-title">Distribution of food items,</h4>
                             <h6 className="card-subtitle mb-2 text-muted">Donate: 100 $</h6>
@@ -113,9 +114,9 @@ export default function Donation() {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div className="col-12 col-sm-6 col-md-6 col-lg-3">
                     <div className="card mt-4">
-                        <img className="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Sheikh_Zayed_Mosque_view.jpg/150px-Sheikh_Zayed_Mosque_view.jpg" alt="Bologna" />
+                        <img className="card-img-top" src="https://i.pinimg.com/originals/82/35/82/82358203c3979bb4db87bd2cda307d24.gif" alt="Bologna" />
                         <div className="card-body">
                             <h4 className="card-title">Food assistance to  victims,</h4>
                             <h6 className="card-subtitle mb-2 text-muted">Donate: 150$</h6>
@@ -127,9 +128,9 @@ export default function Donation() {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div className="col-12 col-sm-6 col-md-6 col-lg-3">
                     <div className="card mt-4">
-                        <img className="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Sheikh_Zayed_Mosque_view.jpg/150px-Sheikh_Zayed_Mosque_view.jpg" alt="Bologna" />
+                        <img className="card-img-top" src="https://i.pinimg.com/originals/82/35/82/82358203c3979bb4db87bd2cda307d24.gif" alt="Bologna" />
                         <div className="card-body">
                             <h4 className="card-title">Mosque construction</h4>
                             <h6 className="card-subtitle mb-2 text-muted">Donate: 500 $</h6>

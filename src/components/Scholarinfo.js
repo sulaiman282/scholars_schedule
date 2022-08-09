@@ -12,8 +12,9 @@ var l1link =window.location.href;
 
   var pathname = window.location.pathname;
   pathname = pathname.substring(18);
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
 
-  console.log(pathname);
+
 
   useEffect(() => {
     const loadPosts = async () => {
@@ -25,6 +26,8 @@ var l1link =window.location.href;
       setLoading(false);
 
     };
+
+  
 
     loadPosts();
   }, []);

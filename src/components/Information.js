@@ -17,12 +17,12 @@ function Information() {
         );
         setPosts(response.data);
         setLoading(false);
-        console.log(response.data)
+        
       };
   
       loadPosts();
     }, []);
-  console.log(searchTitle);
+ 
 
   return (
     <div className=" container ">

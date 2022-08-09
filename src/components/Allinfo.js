@@ -5,7 +5,7 @@ import "../css/allinfo.css"
 
 
 export default function Allinfo() {
-
+   
     const [loading, setLoading] = useState(false);
     const [posts, setPosts] = useState([]);
 
@@ -13,7 +13,7 @@ export default function Allinfo() {
     var pathname = window.location.pathname;
     pathname = pathname.substring(13);
    
-    console.log(pathname);
+  
 
     useEffect(() => {
         const loadPosts = async () => {

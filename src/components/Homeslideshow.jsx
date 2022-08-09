@@ -65,6 +65,8 @@ const sliderImageUrl = [
   }
 ];
 const Brandslider = () => {
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
+
   return (
     <div className="parent ">
       <Carousel

@@ -17,7 +17,7 @@ function Islamicscholars() {
       );
       setPosts(response.data);
       setLoading(false);
-      console.log(response.data)
+     
     };
 
     loadPosts();
