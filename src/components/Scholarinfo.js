@@ -8,7 +8,7 @@ import "../css/scholarinfo.css"
 function Islamicscholars() {
   const [loading, setLoading] = useState(false);
   const [posts, setPosts] = useState([]);
-
+var l1link =window.location.href;
 
   var pathname = window.location.pathname;
   pathname = pathname.substring(18);
@@ -70,9 +70,9 @@ function Islamicscholars() {
                     City: {item.city}<br />
                     Upazila: {item.upazila}<br />
                     PostCode: {item.postCode}<br /><br /><br /><br />
-                    <a href="#" className="reqschedule ">
+                    <Link to="take_schedule" className="reqschedule ">
                       <span className="ps-2 pe-2"> Request Schedule</span>
-                    </a>
+                    </Link>
                   </span>
 
                 </div>

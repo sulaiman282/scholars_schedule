@@ -14,9 +14,9 @@ export default function Cart() {
 
 
     const [product] = React.useState({
-        name: "Tesla Roadster",
-        price: 64998.67,
-        description: "Cool car"
+        name: "Payment ",
+        price: 0.0,
+        description: "Donation"
       });
 
     async function handleToken(token, addresses) {
