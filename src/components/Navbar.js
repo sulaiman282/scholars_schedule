@@ -345,7 +345,7 @@ var totalcost=((p1count*50)+(p1count2*100)+(p1count3*150)+(p1count4*500));
                     aria-labelledby="exampleModalLabel"
                     aria-hidden="true"
                   >
-                    <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable " >
+                    <div className="modal-dialog modal-dialog-centered modal-dialog-scrollablemodal-xl cart212" >
                       <div className="modal-content ">
                         <div className="modal-header">
                           <h5
@@ -588,7 +588,7 @@ var totalcost=((p1count*50)+(p1count2*100)+(p1count3*150)+(p1count4*500));
                             </div>
                             <div className="row w-100 pt-5 pb-5 ">
                               
-                              <div className="col-10  d-flex justify-content-end">
+                              <div className="col-12  d-flex justify-content-start ms-5 ">
                                 <span to="/"> Total Cost : $<input
                                   type="text"
                                   name=""
