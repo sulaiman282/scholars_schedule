@@ -28,6 +28,12 @@ export default function
                                 <li className="nav-item">
                                     <Link className="nav-link active  text-white expand" aria-current="page" to="/donation">Donation</Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link active  text-white expand" aria-current="page" to="/cart "><i className="fa-solid fa-cart-shopping text-light">
+                                    <span > CART</span>
+                                    </i>
+                                    </Link>
+                                </li>
 
 
                             </ul>

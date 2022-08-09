@@ -14,6 +14,8 @@ import Latestposts from './components/Latestposts';
 import Scholarinfo from './components/Scholarinfo'
 import Information from './components/Information'
 import Allinfo from './components/Allinfo';
+import Donation from './components/Donation';
+import Cart from './components/Cart';
 
 
 function App() {
@@ -31,6 +33,10 @@ function App() {
 
       <Route exact path="/Information" element={<div><Information/>  </div>} />
       <Route  path="/Information/*" element={<div><Allinfo/></div>} />
+
+      <Route  path="/Donation" element={<div><Donation/></div>} />
+
+      <Route  path="/cart" element={<div><Cart/></div>} />
       </Routes>
       
   
